@@ -1,4 +1,4 @@
 [tool.towncrier]
-    package = "module_goes_here"
+    package = "prawn"
     package_dir = "app"
     filename = "NEWS.rst"

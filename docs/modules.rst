@@ -1,7 +1,7 @@
-module_goes_here
+prawn
 =========
 
 .. toctree::
    :maxdepth: 4
 
-   module_goes_here
+   prawn

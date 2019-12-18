@@ -1,10 +1,10 @@
 """
 Test modules for:
 
-module_goes_here.__main__
+prawn.__main__
 """
 
-from module_goes_here.__main__ import main
+from prawn.__main__ import main
 
 
 def test_main():
