@@ -26,4 +26,4 @@ def looks_html(line):
     start = line[:128]
     if "<pre>" in start:
         return True
-    return re.search('&#x[0-9A-F]{1,6};', start) is not None
+    return re.search("&#x[0-9A-F]{1,6};", start) is not None
