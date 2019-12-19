@@ -29,6 +29,9 @@ $ pip install prawn
 
 
 
+## Prerequisites:
+- html2text
+
 
 ## Download from PyPI.org
 
