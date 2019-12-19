@@ -3,6 +3,8 @@ Read in one stream that is a mix of potential html and text and convert any
 html to text
 """
 
+import re
+
 import html2text
 
 
@@ -22,4 +24,6 @@ def looks_html(line):
     Look for clues of html in the first 128 characters
     """
     start = line[:128]
-    return "<pre>" in start
+    if "<pre>" in start:
+        return True
+    return re.search('&#x[0-9A-F]{1,6};', start) is not None
